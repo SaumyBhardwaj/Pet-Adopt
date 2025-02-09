@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Pet - PetAdopt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PetAdopt</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Adopt.html">Adopt</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="adopt-hero">
+        <h1>Adopt a Pet</h1>
+        <p>Give a loving home to a pet in need.</p>
+    </section>
+
+    <section class="filter">
+        <h2>Filter Pets</h2>
+        <form>
+            <label for="breed">Breed:</label>
+            <select id="breed" name="breed">
+                <option value="all">All Breeds</option>
+                <option value="labrador">Labrador</option>
+                <option value="beagle">Beagle</option>
+                <option value="mixed-breed">Mixed Breed</option>
+                <!-- Add more breeds as needed -->
+            </select>
+
+            <label for="age">Age:</label>
+            <select id="age" name="age">
+                <option value="all">All Ages</option>
+                <option value="puppy">Puppy</option>
+                <option value="adult">Adult</option>
+            </select>
+
+            <button type="submit" class="filter-button">Filter</button>
+        </form>
+    </section>
+
+    <section class="pet-list">
+        <h2>Available Pets for Adoption</h2>
+        <div class="pet-container">
+            <div class="pet-card">
+                <img src="https://img.freepik.com/premium-photo/indian-street-brown-dog-rishikesh-india_262388-2321.jpg" alt="Max">
+                <h3>Max</h3>
+                <p>Max is a playful and friendly Indie.</p>
+                <p>Age: Adult</p>
+                <button class="adopt-button">Adopt Me</button>
+            </div>
+            <div class="pet-card">
+                <img src="https://pawstro.com//wp-content/uploads/2022/06/indiandog.jpg" alt="Bella">
+                <h3>Bella</h3>
+                <p>Bella is a sweet Indie who loves cuddles.</p>
+                <p>Age: Puppy</p>
+                <button class="adopt-button">Adopt Me</button>
+            </div>
+            <div class="pet-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtfnZjep_ysN0Fe-2iGk2ilScS_AFbRLEbTQ&s" alt="Charlie">
+                <h3>Charlie</h3>
+                <p>Charlie is a curious Mixed Breed dog.</p>
+                <p>Age: Puppy</p>
+                <button class="adopt-button">Adopt Me</button>
+            </div>
+            <!-- Add more pet cards as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PetAdopt | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
++
